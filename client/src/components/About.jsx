@@ -2,9 +2,9 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className = "h-dvh">
+    <div className = "h-dvh text-white">
       {/* About Us section */}
-      <div className="about-us-section bg-yellow-500 py-12 px-8">
+      <div className="about-us-section bg-yellow-500 p-8">
         <h2 className="text-4xl font-bold mb-6">About Us</h2>
         <p className="text-lg mb-6">
           Founded in August 2024, MTC at Georgia Tech is committed to uplifting the local Muslim community through technology. We execute impactful technical projects for Muslim-owned businesses, organizations, and masjids. Our initiatives also include empowering the youth with tech skills and fostering a nurturing environment that supports spiritual and professional development.
@@ -16,7 +16,7 @@ const About = () => {
       </div>
 
       {/* Image section */}
-      <div className="image-section grid grid-cols-2 gap-6 py-12 px-8 bg-gray-900">
+      <div className="image-section grid grid-cols-2 gap-6 p-8 bg-gray-900">
         <div className="bg-gray-700 h-56 rounded-lg flex items-center justify-center">
           <span className="text-gray-300">Image Placeholder</span>
         </div>
@@ -26,7 +26,7 @@ const About = () => {
       </div>
 
       {/* Projects section */}
-      <div className="content-section bg-yellow-500 p-12">
+      <div className="content-section bg-yellow-500 p-8">
         <h2 className="text-4xl font-bold mb-6">Our Projects</h2>
         <p className="text-lg mb-8">
           We are dedicated to making a meaningful impact through technology and community engagement.

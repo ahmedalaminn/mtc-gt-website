@@ -9,7 +9,7 @@ import Landing from './components/Landing.jsx';
 
 function App() {
   return (
-    <div className = 'bg-background'>
+    <div className = "bg-gray-900">
       <Header/>
 
       <section id = "landing">
