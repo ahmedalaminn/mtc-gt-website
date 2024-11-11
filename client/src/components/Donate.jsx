@@ -2,8 +2,7 @@ import React from 'react'
 
 const Donate = () => {
   return (
-    <div>
-      
+    <div className = "h-dvh">
     </div>
   )
 }

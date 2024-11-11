@@ -6,15 +6,12 @@ const Header = () => {
       <div className = 'header flex fixed top-0 w-full justify-between m-auto p-[15px] text-header_text bg-background'>
         
           <div className = "font-bold">
-            <h2 className> Muslim Tech Collaborative @ Georgia Tech </h2>
+            <a href = "#landing"> Muslim Tech Collaborative @ Georgia Tech </a>
           </div>
 
           <div>
             <nav>
               <ul className = 'flex space-x-6'>
-                <li>
-                  <a href="#home" className="hover:text-gray-400">Home</a>
-                </li>
                 <li>
                   <a href="#about" className="hover:text-gray-400">About</a>
                 </li>

@@ -5,15 +5,15 @@ import Contact from './components/Contact.jsx';
 import Donate from './components/Donate.jsx';
 import Footer from './components/Footer.jsx';
 import Header from './components/Header.jsx';
-import Home from './components/Home.jsx';
+import Landing from './components/Landing.jsx';
 
 function App() {
   return (
     <div className = 'bg-background'>
       <Header/>
 
-      <section id = "home">
-        <Home/>
+      <section id = "landing">
+        <Landing/>
       </section>
 
       <section id = "about">
