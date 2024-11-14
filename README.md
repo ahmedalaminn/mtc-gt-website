@@ -1,4 +1,4 @@
-# MTC-GT-Website
+# MTC-GT-Website - Backend
 
 ## To create a virtual environment:
 ```bash
