@@ -35,33 +35,33 @@ const Donate = () => {
   }
 
   return (
-    <div className = "h-dvh flex flex-col justify-center items-center mb-6 m-10"> 
-      <h2 className = "text-4xl font-bold text-white mb-5 "> Donate </h2>
+    <div className = "h-dvh bg-gray-900 text-white p-6"> 
+      <h2 className = "text-4xl font-bold mb-6 text-center"> Donate </h2>
 
-      <form onSubmit = {handleSubmit} className = "flex flex-col">
+      <form onSubmit = {handleSubmit} className = "flex flex-col space-y-4 items-center">
         <input 
           onChange = {handleFirstNameChange} 
           value = {values.firstName} 
           placeholder = "First Name" 
           name = "firstName"
-          className = "p-2 rounded border bg-transparent hover: text-gray-900"
+          className = "p-4 rounded-lg bg-gray-700 border border-gray-600 focus:outline-none focus:border-yellow-500 w-full max-w-md"
         />
         <input 
           onChange = {handleLastNameChange} 
           value = {values.lastName} 
           placeholder = "Last Name" 
           name = "lastName"
-          className = "p-2 rounded border bg-transparent hover: text-gray-900"
+          className = "p-4 rounded-lg bg-gray-700 border border-gray-600 focus:outline-none focus:border-yellow-500 w-full max-w-md"
         />
         <input 
           onChange = {handleEmailChange}
           value = {values.email} 
           placeholder = "Email" 
           name = "email"
-          className = "p-2 rounded border bg-transparent hover: text-gray-900"
+          className = "p-4 rounded-lg bg-gray-700 border border-gray-600 focus:outline-none focus:border-yellow-500 w-full max-w-md"
         />
 
-        <button type = "submit" className = "p-2 rounded text-white hover:text-gray-400"> Submit </button>
+        <button type = "submit" className = "py-3 px-6 rounded-lg bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-semibold"> Submit </button>
       </form>
 
       {submitted && <p className="mt-4 text-green-500">{submitted}</p>}
