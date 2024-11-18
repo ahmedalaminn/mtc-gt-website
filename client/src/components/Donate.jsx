@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 const Donate = () => {
   return (
-    <div className="h-dvh bg-gray-900 text-white p-6">
-      <h2 className="text-4xl font-bold mb-6 text-center">Donate</h2>
+    <div className="h-dvh flex flex-col justify-center items-center bg-gray-900 text-white p-6"> 
+      <h2 className="text-4xl font-bold mb-6"> Donate </h2>
       <div className="text-center">
         <Link
           to="/checkout"
