@@ -10,7 +10,7 @@ const Contact = () => {
       </p>
       <div className="flex justify-center mb-6">
         <a href="https://www.instagram.com/mtcgatech/profilecard/?igsh=MWdiZ2twZDN0bmR1Nw==" target="_blank" rel="noopener noreferrer">
-          <img src="https://img.icons8.com/ios/50/ffffff/instagram.png" alt="Facebook" className="w-10 h-10 mr-4" />
+          <img src="https://img.icons8.com/ios/50/ffffff/instagram.png" alt="Instagram" className="w-10 h-10 mr-4" />
         </a>
       </div>
       <form className="flex flex-col space-y-4 w-full max-w-md">
