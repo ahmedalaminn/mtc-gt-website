@@ -35,30 +35,30 @@ const Donate = () => {
   }
 
   return (
-    <div className = "h-dvh bg-gray-900 text-white p-6"> 
-      <h2 className = "text-4xl font-bold mb-6 text-center"> Donate </h2>
+    <div className="h-dvh flex flex-col justify-center items-center bg-gray-900 text-white p-6"> 
+      <h2 className="text-4xl font-bold mb-6"> Donate </h2>
 
-      <form onSubmit = {handleSubmit} className = "flex flex-col space-y-4 items-center">
+      <form onSubmit = {handleSubmit} className = "flex flex-col space-y-4 items-center w-full max-w-md">
         <input 
           onChange = {handleFirstNameChange} 
           value = {values.firstName} 
           placeholder = "First Name" 
           name = "firstName"
-          className = "p-4 rounded-lg bg-gray-700 border border-gray-600 focus:outline-none focus:border-yellow-500 w-full max-w-md"
+          className = "p-6 rounded-lg bg-gray-700 border border-gray-600 focus:outline-none focus:border-yellow-500 w-full"
         />
         <input 
           onChange = {handleLastNameChange} 
           value = {values.lastName} 
           placeholder = "Last Name" 
           name = "lastName"
-          className = "p-4 rounded-lg bg-gray-700 border border-gray-600 focus:outline-none focus:border-yellow-500 w-full max-w-md"
+          className = "p-6 rounded-lg bg-gray-700 border border-gray-600 focus:outline-none focus:border-yellow-500 w-full"
         />
         <input 
           onChange = {handleEmailChange}
           value = {values.email} 
           placeholder = "Email" 
           name = "email"
-          className = "p-4 rounded-lg bg-gray-700 border border-gray-600 focus:outline-none focus:border-yellow-500 w-full max-w-md"
+          className = "p-6 rounded-lg bg-gray-700 border border-gray-600 focus:outline-none focus:border-yellow-500 w-full"
         />
 
         <button type = "submit" className = "py-3 px-6 rounded-lg bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-semibold"> Submit </button>

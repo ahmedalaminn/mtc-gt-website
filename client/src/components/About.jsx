@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className = "h-dvh text-white">
+    <div className = "h-dvh flex flex-col justify-center items-center text-white">
       {/* About Us section */}
       <div className="about-us-section bg-yellow-500 p-8">
         <h2 className="text-4xl font-bold mb-6">About Us</h2>
@@ -17,10 +17,10 @@ const About = () => {
 
       {/* Image section */}
       <div className="image-section grid grid-cols-2 gap-6 p-8 bg-gray-900">
-        <div className="bg-gray-700 h-56 rounded-lg flex items-center justify-center">
+        <div className="bg-gray-700 h-56 rounded-lg flex items-center justify-center w-full">
           <span className="text-gray-300">Image Placeholder</span>
         </div>
-        <div className="bg-gray-700 h-56 rounded-lg flex items-center justify-center">
+        <div className="bg-gray-700 h-56 rounded-lg flex items-center justify-center w-full">
           <span className="text-gray-300">Image Placeholder</span>
         </div>
       </div>
