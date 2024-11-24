@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '/src/assets/logo.avif'
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -18,10 +19,12 @@ const Header = () => {
                 <a href="#calendar" className="hover:text-gray-400">Calendar</a>
               </li>
               <li>
-                <a href="#donate" className="hover:text-gray-400">Donate</a>
+                <a href="#contact" className="hover:text-gray-400">Contact</a>
               </li>
               <li>
-                <a href="#contact" className="hover:text-gray-400">Contact</a>
+                <Link to="/checkout" className="hover:text-gray-400">
+                  Donate
+               </Link>
               </li>
             </ul>
           </nav>
@@ -31,4 +34,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Header;
