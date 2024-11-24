@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { loadStripe } from "@stripe/stripe-js";
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 import Landing from "./components/Landing.jsx";

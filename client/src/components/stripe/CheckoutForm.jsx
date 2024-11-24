@@ -1,7 +1,8 @@
+import { loadStripe } from "@stripe/stripe-js";
 import {
-    EmbeddedCheckoutProvider,
-    EmbeddedCheckout,
-  } from "@stripe/react-stripe-js";
+  EmbeddedCheckoutProvider,
+  EmbeddedCheckout,
+} from "@stripe/react-stripe-js";
 
 const stripePromise = loadStripe("pk_test_TYooMQauvdEDq54NiTphI7jx");
 
